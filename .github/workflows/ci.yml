@@ -35,4 +35,4 @@ jobs:
     - name: Install dependencies with Cask
       run: cask
     - name: Run tests
-      run: ./run-tests.sh
+      shell: script -e -c ./run-tests.sh
